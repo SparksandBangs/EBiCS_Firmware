@@ -45,11 +45,11 @@
 
 //----------------------------------------------------------------------
 //Battery bar settings for Kunteng and Bafang Display
-#define BATTERY_LEVEL_1 323000
-#define BATTERY_LEVEL_2 329000
-#define BATTERY_LEVEL_3 344000
-#define BATTERY_LEVEL_4 368000
-#define BATTERY_LEVEL_5 380000
+#define BATTERY_LEVEL_1 480000
+#define BATTERY_LEVEL_2 490000
+#define BATTERY_LEVEL_3 500000
+#define BATTERY_LEVEL_4 510000
+#define BATTERY_LEVEL_5 520000
 
 //----------------------------------------------------------------------
 //PI-control factor settings
@@ -77,8 +77,8 @@
 
 //--------------------------------------------------------------------
 //Speed settings
-#define WHEEL_CIRCUMFERENCE 2200
-#define GEAR_RATIO 11 //11 for BionX IGH3
+#define WHEEL_CIRCUMFERENCE 2115
+#define GEAR_RATIO 84 //84 for AKM128H 201rpm
 #define SPEEDLIMIT 25
 #define PULSES_PER_REVOLUTION 1
 #define SPEEDSOURCE INTERNAL
@@ -88,15 +88,15 @@
 //---------------------------------------------------------------------
 //power settings
 #define PH_CURRENT_MAX 1200
-#define BATTERYCURRENT_MAX 14000
+#define BATTERYCURRENT_MAX 28000
 #define REVERSE 1 //1 for normal direction, -1 for reverse
 #define PUSHASSIST_CURRENT 300
-#define VOLTAGE_MIN 1320 //33V
+#define VOLTAGE_MIN 1800 //45V
 
 //---------------------------------------------------------------------
 //torquesensor settings
 #define TS_COEF 2400
-#define TS_MODE
+//#define TS_MODE
 //#define TQONAD1
 
 //---------------------------------------------------------------------
@@ -106,7 +106,7 @@
 //---------------------------------------------------------------------
 //Regen settings
 
-#define REGEN_CURRENT 800
+#define REGEN_CURRENT 0
 #define REGEN_CURRENT_MAX 10000
 //#define ADC_BRAKE
 
